@@ -8,38 +8,56 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<label for="name"> Name</label>
+	<form>
+		<div>
+	<label for="name"> Name*</label>
 	<input type="text" id="name" placeholder="name" value=""  required>
-	<br>
-	<label for="email"> Email</label>
+		</div>
+		
+		<div>
+	<label for="email"> Email*</label>
 	<input type="email" id="email" placeholder="email" value="" required>
-	<br>
-	<label for="gender"> Gender</label>
-	<input type="radio" name="gender" value="male" required>Male
-	<input type="radio" name="gender" value="female" required>Female
-	<input type="radio" name="gender" value="transgender" required>Transgender
-	<br>
+	</div>
+		
+	<div>	
+	<label for="gender"> Gender*</label>
+	<input type="radio" name="gender" id="male" required>Male
+	<input type="radio" name="gender" id="female" required>Female
+	</div>
+		
+		<div>
 	<label for="Laptop Brands"> Laptop Brands</label>
 	<select name="Laptop Brands" id="Laptop Brands">
-		<option value="Select a Laptop">Select a Laptop</option>
         <option value="Apple">Apple</option>
         <option value="Asus">Asus</option>
         <option value="HP">HP</option>
       </select>
-	<br>
-	<label for="age"> Age</label>
+	</div>
+		
+		<div>
+	<label for="age"> Age*</label>
 	<input type="number" id="age" placeholder="age" value="" required>
-	<br>
-	<label for="dob"> DOB</label>
+	</div>
+		
+		<div>
+	<label for="dob"> DOB*</label>
 	<input type="date" id="dob" placeholder="Date of Birth" value="" required>
-	<br>
-	<label for="password"> Password</label>
+	</div>
+		
+		<div>
+	<label for="password"> Password*</label>
 	<input type="password" id="password" placeholder="Password" value="" required>
-	<br>
+	</div>
+		
+		<div>
+			<label for="portfolio"> Portfolio</label>
 	<input type="url" id="portfolio" value="" required>
-	<br>
-	<input type="submit" placeholder="submit button">
-	<br>
+	</div>
+		
+		<div>
+	<button type="submit">submit
+	</div>
+	</form>
 	
 	
 	
